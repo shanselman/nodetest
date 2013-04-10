@@ -1,0 +1,24 @@
+Wed Apr 10 2013 14:20:25 GMT-0700 (Pacific Daylight Time):
+{ Message: 'Specified hostname nodetest2.azurewebsites.net is already reserved for another site.',
+  Code: 'Conflict',
+  toString: [Function],
+  __frame: 
+   { name: 'createSite',
+     line: 330,
+     file: 'C:\\Users\\scottha\\AppData\\Roaming\\npm\\node_modules\\azure-cli\\lib\\commands\\site._js',
+     prev: 
+      { name: '__3',
+        line: 191,
+        file: 'C:\\Users\\scottha\\AppData\\Roaming\\npm\\node_modules\\azure-cli\\lib\\commands\\site._js',
+        prev: undefined,
+        active: false,
+        offset: 34,
+        col: 10 },
+     active: false,
+     offset: 3,
+     col: 14 },
+  rawStack: [Getter],
+  stack: [Getter] }
+raw stack unavailable
+    at createSite (C:\Users\scottha\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site._js:333:14)
+    at __3 (C:\Users\scottha\AppData\Roaming\npm\node_modules\azure-cli\lib\commands\site._js:225:10)
